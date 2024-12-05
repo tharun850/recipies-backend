@@ -36,6 +36,7 @@ public class RecipeService {
     @PersistenceContext
     private EntityManager entityManager;
 
+
     @Transactional
     @Retryable(
             retryFor = { CustomException.class },

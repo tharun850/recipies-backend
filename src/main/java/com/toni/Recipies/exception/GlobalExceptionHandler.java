@@ -24,7 +24,7 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(CustomException.class)
     public ResponseEntity<String> handleCustomException(CustomException ex) {
         logger.error(ex.getMessage());
-        String errorMessage = messageSource.getMessage("custom.error", null, LocaleContextHolder.getLocale());
+        String errorMessage = ex.getMessage();
         return new ResponseEntity<>(errorMessage, HttpStatus.BAD_REQUEST);
     }
 
