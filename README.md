@@ -17,8 +17,8 @@ This API allows you to manage and search recipes.
 5. Access the API at `http://localhost:8080`.
 
 ## Live Project
-The project is live at: [https://recepies-tksx.onrender.com](https://recepies-tksx.onrender.com)
-Live Project api documentation at : [https://recepies-tksx.onrender.com/swagger-ui/index.html][Swagger UI]
+- The project is live at: [https://recepies-tksx.onrender.com](https://recepies-tksx.onrender.com)
+- Live Project api documentation at : [Swagger UI](https://recepies-tksx.onrender.com/swagger-ui/index.html)
 
 ## API Documentation
 
