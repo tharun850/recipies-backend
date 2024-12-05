@@ -16,6 +16,10 @@ This API allows you to manage and search recipes.
 4. Run `./gradlew bootRun` to start the application.
 5. Access the API at `http://localhost:8080`.
 
+## Live Project
+The project is live at: [https://recepies-tksx.onrender.com](https://recepies-tksx.onrender.com)
+Live Project api documentation at : [https://recepies-tksx.onrender.com/swagger-ui/index.html][Swagger UI]
+
 ## API Documentation
 
 The API documentation is available at the following URIs:
